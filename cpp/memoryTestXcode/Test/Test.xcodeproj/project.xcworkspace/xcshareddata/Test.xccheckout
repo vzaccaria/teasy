@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>37A619AA-BAE6-4E3B-9397-F62FC3C94D05</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Test</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>88672A8D0836C6CEFDF99D2EDD72495CC7A45785</key>
+		<string>https://github.com/vzaccaria/native-sgrab-helper.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>src/cpp/memoryTestXcode/Test/Test.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>88672A8D0836C6CEFDF99D2EDD72495CC7A45785</key>
+		<string>../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/vzaccaria/native-sgrab-helper.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>88672A8D0836C6CEFDF99D2EDD72495CC7A45785</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>88672A8D0836C6CEFDF99D2EDD72495CC7A45785</string>
+			<key>IDESourceControlWCCName</key>
+			<string>native-sgrab-helper</string>
+		</dict>
+	</array>
+</dict>
+</plist>
