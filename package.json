@@ -5,7 +5,7 @@
     "main": "main.js",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/vzaccaria/teasy-2.0.git"
+        "url": "git+https://github.com/vzaccaria/teasy.git"
     },
     "author": {
         "name": "Vittorio Zaccaria",
@@ -13,7 +13,7 @@
     },
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/vzaccaria/teasy-2.0/issues"
+        "url": "https://github.com/vzaccaria/teasy/issues"
     },
     "keywords": [
         "electron",

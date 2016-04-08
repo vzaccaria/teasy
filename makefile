@@ -7,7 +7,7 @@ include .make/index.make
 
 WEBPACK=./node_modules/.bin/webpack
 WEBPACK_PRODUCTION_FLAGS=--config webpack/webpack.config.production.js
-WEBPACK_FLAGS=--progress --profile --colors
+WEBPACK_FLAGS=--progress --profile --colors --json
 
 
 ELECTRON=./node_modules/.bin/electron
@@ -30,7 +30,9 @@ release-run:
 
 .phony: release-build-modules
 release-build-modules:
-	${WEBPACK} ${WEBPACK_PRODUCTION_FLAGS} ${WEBPACK_FLAGS}
+	${WEBPACK} ${WEBPACK_PRODUCTION_FLAGS} ${WEBPACK_FLAGS} > stats.json
+
+
 
 .phony: release-build-native
 release-build-native:
