@@ -59,9 +59,6 @@ export default class PreviewWindow extends React.Component {
                     <IconPopupColor />
                     <IconPopupContentColor />
 
-                    <IconPopupLang className={`${getLanguageFlag(state.currentLanguage)} flag`} />
-                    <IconPopupContentLang />
-
                     <Icon type="maximize" onClick={toggleShowTopBar} />
 
                     <IconPopupTime />
