@@ -1,6 +1,6 @@
 {
   "name": "teasy",
-  "version": "2.0.0rc0",
+  "version": "2.0.0pre",
   "description": "The next teaching tool you will ever need",
   "main": "main.js",
   "repository": {
@@ -71,6 +71,7 @@
     "node-polyglot": "1.0.0",
     "object-assign": "4.0.1",
     "proxyquire": "1.7.1",
+    "publish-release": "1.2.0",
     "radium": "0.14.3",
     "raw-loader": "0.5.1",
     "react": "0.14.5",

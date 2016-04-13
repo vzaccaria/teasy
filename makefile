@@ -46,11 +46,11 @@ release-run: ## run local electron app
 	${ELECTRON} .
 
 .phony: release-build-modules
-release-build-modules: ## build just js modules
+release-build-modules:
 	${WEBPACK} ${WEBPACK_PRODUCTION_FLAGS} ${WEBPACK_FLAGS}
 
 .phony: release-build-native
-release-build-native: ## build just native cpp modules (coregraphics stuff)
+release-build-native:
 	HOME=~/.electron-gyp ./node_modules/.bin/node-gyp rebuild --target=0.37.2 --arch=x64 --dist-url=https://atom.io/download/atom-shell
 
 .phony: release-package
@@ -61,13 +61,14 @@ release-package: ## package local app into an OSX .app (`release` directory)
 
 .phony: release-on-github
 release-on-github: ## To be fixed..
-	echo "remember to source GITHUBTOKEN"
-	./node_modules/.bin/electron-release --app="release/darwin-x64/Teasy\ 2.0-darwin-x64/Teasy\ 2.0.app" --token=$$GITHUBTOKEN
+	echo "Packing up release. Remember to source GITHUBTOKEN before using this target."
+	./node_modules/.bin/electron-release --app=./release/darwin-x64/Teasy-darwin-x64/Teasy.app --token=$$GITHUBTOKEN
 
 .phony: release-clean
 release-clean: ## cleanup local app
 	rm -rf build
 	rm -rf dist
+	rm -rf release
 
 #
 # Development targets
