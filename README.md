@@ -1,5 +1,4 @@
-Teasy
-=====
+# Teasy
 
 > A tiny tool to make teaching easier.
 
@@ -12,8 +11,7 @@ myself :).
 ![Main
 windows](https://dl.dropboxusercontent.com/u/5867765/images/teasy_main_windows_explained.png)
 
-Features
---------
+## Features
 
 You have a customizable laser pointer, which appears whenever you hover
 on the actual application window
@@ -28,18 +26,16 @@ useful to signal when the lecture is going to be resumed during a break.
 ![Main
 windows](https://dl.dropboxusercontent.com/u/5867765/images/teasy_timer.png)
 
-Todo
-----
+## Todo
 
 -   Tests
 -   MOAR tests
 -   Add a live twitter stream (with moderation). In this way students
-    can participate by sending questions which can then be shown
-    in realtime.
+    can participate by sending questions which can then be shown in
+    realtime.
 -   Add twitter polls.
 
-Contributing
-------------
+## Contributing
 
 The makefile exposes all the targets you may need to develop and release
 a new app. Here's the description of the targets:
@@ -58,8 +54,13 @@ a new app. Here's the description of the targets:
     stop                           stop development server
     show                           start development server (compile and hot reload)
 
-Licensing
----------
+# Prerequisites
+
+- Install opencv:
+
+  brew install opencv
+
+## Licensing
 
 The MIT License (MIT)
 
@@ -84,8 +85,7 @@ CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-Credits
--------
+## Credits
 
 -   Concept, design and implementation: [Vittorio
     Zaccaria](https://github.com/vzaccaria)
